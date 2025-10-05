@@ -22,7 +22,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final ThemeController themeController = Get.put(ThemeController());
-
     return ScreenUtilInit(
       designSize: const Size(375, 812),
       builder: (_, __) {
