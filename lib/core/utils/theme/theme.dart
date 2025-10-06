@@ -1,3 +1,4 @@
+import 'package:dark_mood_effect/core/utils/constants/app_colors.dart';
 import 'package:flutter/material.dart'  hide AppBarThemeData;
 
 class AppTheme {
@@ -18,7 +19,7 @@ class AppTheme {
     brightness: Brightness.dark,
     primaryColor: Colors.blue,
     textTheme: TextTheme(
-      bodyLarge: TextStyle(color: Colors.grey),
+      bodyLarge: TextStyle(color: AppColors.secondary),
     ),
     scaffoldBackgroundColor: Color(0xFF121212),
     appBarTheme: AppBarTheme(

@@ -12,7 +12,7 @@ class AppRoute {
 
   static List<GetPage> routes = [
     GetPage(name: init, page: () => const SplashScreen()),
-    GetPage(name: loginScreen, page: () => const LoginScreen()),
+    GetPage(name: loginScreen, page: () =>  LoginScreen()),
 
   ];
 }

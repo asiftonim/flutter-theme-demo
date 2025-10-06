@@ -2,7 +2,6 @@ import 'package:dark_mood_effect/routes/app_routes.dart';
 import 'package:dark_mood_effect/them_controller/them_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart' as foundation;
-import 'package:flutter/cupertino.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'core/bindings/controller_binder.dart';
