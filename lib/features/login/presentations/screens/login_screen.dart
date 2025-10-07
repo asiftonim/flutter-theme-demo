@@ -7,6 +7,7 @@ import '../../../../core/common/widgets/custom_text_fields.dart';
 import '../../../../core/utils/constants/app_colors.dart';
 import '../../../../them_controller/them_controller.dart';
 import '../../controllers/log_in_controller.dart';
+
 class LoginScreen extends StatelessWidget {
    LoginScreen({super.key});
   final LoginController controller = Get.find<LoginController>();
@@ -99,17 +100,12 @@ class LoginScreen extends StatelessWidget {
                       onPressed: () {
                         Get.find<ThemeController>().toggleTheme();
                       },
-                    )
+                    ),
                   ],
                 ),
-                Text(
-                  "Dark & Light Mood",
-                  style: Theme.of(context).textTheme.bodyLarge!.copyWith(
-                    fontWeight: FontWeight.w800,
-                    fontSize: 20.sp,
-                  ),
-                ),
+                ElevatedButton(onPressed: (){
 
+                }, child:Text("Video Screen"))
               ],
             ),
 

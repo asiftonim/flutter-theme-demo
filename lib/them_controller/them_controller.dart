@@ -4,6 +4,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class ThemeController extends GetxController {
   final Rx<ThemeMode> themeMode = Rx<ThemeMode>(ThemeMode.light);
+  RxBool get isDark => (themeMode.value == ThemeMode.dark).obs;
 
   static const String _themeKey = 'theme_mode';
 
